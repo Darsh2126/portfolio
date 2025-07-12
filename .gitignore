@@ -1,0 +1,48 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log*
+
+# --- Next.js build output ---
+.next/
+out/
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+
+# --- VSCode ---
+.vscode/
+
+# --- Logs ---
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Prisma ---
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# --- Playwright ---
+playwright-report/
+test-results/
+*.trace.zip
+
+# --- Coverage ---
+coverage/
+
+# --- Others ---
+*.swp
+*.s*
