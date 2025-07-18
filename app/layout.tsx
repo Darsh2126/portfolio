@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Darsh Gajdhar",
   description: "Created with v0",
   generator: "Darsh Gajdhar",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
